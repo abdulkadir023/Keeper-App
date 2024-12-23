@@ -1,24 +1,15 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './Header';
-import Footer from './Footer';
-import Note from './Note';
+import App from './App';
 
 
 ReactDOM.render(
-    <div> 
-    <Header />
-    <Note />
-    <Footer />
-    </div>,
-
+    <App />,
     document.getElementById("root")
 )
 
 
-//5. Create a Note.jsx component to show a <div> element with a
-//<h1> for a title and a <p> for the content.
 
 //6. Make sure that the final website is styled like the example shown here:
 //https://l1pp6.csb.app/
